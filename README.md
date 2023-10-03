@@ -1,3 +1,3 @@
 # arithmawhore
 
-teaching whores arithmetic
+teaching whores arithmetic (plural)

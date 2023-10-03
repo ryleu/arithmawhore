@@ -1,0 +1,22 @@
+{
+  "name": "arithmawhore",
+  "version": "1.0.0",
+  "description": "teaching whores arithmetic",
+  "main": "src/arithmawhore/main.js",
+  "scripts": {
+    "test": "echo no test command"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ryleu/arithmawhore.git"
+  },
+  "keywords": [
+    "math"
+  ],
+  "author": "ryleu <riley@ryleu.me>",
+  "license": "AGPL-3.0-only",
+  "bugs": {
+    "url": "https://github.com/ryleu/arithmawhore/issues"
+  },
+  "homepage": "https://github.com/ryleu/arithmawhore#readme"
+}
