@@ -1,0 +1,3 @@
+# arithmawhore
+
+teaching whores arithmetic
