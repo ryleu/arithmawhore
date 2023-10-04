@@ -8,33 +8,35 @@
     <meta name="author" content="author" />
     <meta name="keywords" content="keywords" />
     <link rel="stylesheet" type="text/css" href="index.css">
+    <script src="index.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
-<h1>ArithmaWHORE — Factorization</h1>
+<h1>ArithmaWHORE &mdash; Factorization</h1>
 
 <div id="drill">
     <div id="problem">
         <!-- three fractions multiplied together -->
         <div id="fraction-1" class="fraction">
-            <div id="numerator-1" class="numerator">1</div>
+            <button id="numerator-1" class="numerator"></button>
             <div id="seperator-1" class="seperator"></div>
-            <div id="denominator-1" class="denominator">1</div>
+            <button id="denominator-1" class="denominator"></button>
         </div>
-        <div class="multiplied-by">x</div>
+        <div class="multiplied-by">&times;</div>
         <div id="fraction-2" class="fraction">
-            <div id="numerator-2" class="numerator">1</div>
+            <button id="numerator-2" class="numerator"></button>
             <div id="seperator-2" class="seperator"></div>
-            <div id="denominator-2" class="denominator">1</div>
+            <button id="denominator-2" class="denominator"></button>
         </div>
-        <div class="multiplied-by">x</div>
+        <div class="multiplied-by">&times;</div>
         <div id="fraction-3" class="fraction">
-            <div id="numerator-3" class="numerator">1</div>
+            <button id="numerator-3" class="numerator"></button>
             <div id="seperator-3" class="seperator"></div>
-            <div id="denominator-3" class="denominator">1</div>
+            <button id="denominator-3" class="denominator"></button>
         </div>
     </div>
-    <div id="prime-numbers">
+    <div style="width: 100%; height: 100px"></div>
+    <div id="prime-numbers" class="hidden">
         <button id="prime-2" class="prime-button">2</button>
         <button id="prime-3" class="prime-button">3</button>
         <button id="prime-5" class="prime-button">5</button>

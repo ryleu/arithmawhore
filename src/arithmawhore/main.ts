@@ -1,5 +1,3 @@
-import * as ws from 'ws';
-import crypto from "crypto-js";
 import * as http from "http";
 import fs from "fs";
 
@@ -77,8 +75,13 @@ const Files = Object.freeze(cacheFiles("site", [
     { name: "index.html", type: "file" },
     { name: "index.css", type: "file" },
     { name: "index.js", type: "file" },
-    { name: "waifu.png", type: "file" }
-]));
+    { name: "waifu.png", type: "file" },
+    new DirectoryCacheReference("factorization", [
+        { name: "index.html", type: "file" },
+        { name: "index.css", type: "file" },
+        { name: "index.js", type: "file" },
+    ]
+)]));
 
 const port = (n => (n >= 0 && n < 65536) ? n : 8080)(parseInt(process.env.PORT ?? ""));
 

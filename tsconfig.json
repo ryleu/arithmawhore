@@ -2,7 +2,8 @@
     "compilerOptions": {    
       "esModuleInterop": true,
       "target": "ES6",
-      "module": "CommonJS"
+      "module": "CommonJS",
+      "removeComments": true
     },
     "include": [
       "src/*",
