@@ -1,0 +1,21 @@
+.problem {
+    display: flex;
+    flex-direciton: column;
+}
+
+.fraction .multiplied-by {
+    font-size: 3em;
+    flex-grow: 1;
+    flex-direction: column;
+}
+
+.seperator {
+    background-color: black;
+    height: 2px;
+    flex-grow: 1;
+    border-radius: 50%;
+}
+
+.prime-numbers {
+    display: none;
+}
